@@ -36,7 +36,7 @@ df['Order_Date'] = pd.to_datetime( df['Order_Date'], format='%d-%m-%Y' )
 #Site
 st.header("Marketplace - Visão Cliente")
 
-im_path = r'C:\Users\ander\Desktop\Cursos\Meigarom\im.jpg'
+im_path = 'im.jpg'
 image = Image.open(im_path)
 st.sidebar.image(image, width=250)
 

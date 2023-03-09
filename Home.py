@@ -6,7 +6,7 @@ st.set_page_config(
     page_icon=":)"
 )
 
-image_path = r'C:\Users\ander\Desktop/Cursos/Meigarom/Análise_dados_python/Ciclo_07/im.jpg'
+image_path = 'im.jpg'
 image = Image.open(image_path)
 st.sidebar.image(image,width=120)
 st.sidebar.markdown("# Cury Company")
